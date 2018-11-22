@@ -1,7 +1,7 @@
-# Markdown Previewer
+# Drum Machine
 
-A simple React SPA to preview your markdown!
-This is my solution to a freecodecamps.org Front End Libraries Project - Build a Markdown Previewer.
+A simple React SPA drumpad!
+This is my solution to a freecodecamps.org Front End Libraries Project - Build a Drum Machine.
 <a href="https://j-v-a.github.io/drum-machine/">See live!</a>
 
 ## The requirements:
