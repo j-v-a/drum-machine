@@ -1,0 +1,45 @@
+@import 'colors';
+
+.default-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2em 1fr;
+  box-shadow: $default-shadow;
+}
+
+#app {
+  #drum-machine {
+    width: 600px;
+    background: $dark-grey;
+    color: white;
+    border-radius: 1em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 400px;
+    box-shadow: inset 0 0 1.5em $white;
+
+    #display {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #drum-pad-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 1em;
+
+      .drum-pad {
+        border: 2px solid $accent;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 0 0 1em $black;
+      }
+    }
+  }
+}
