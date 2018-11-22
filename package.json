@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://j-v-a.github.io/drum-machine/",
+  "homepage": "https://j-v-a.github.io/drum-machine",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.js --mode development",
     "test": "echo \"No test specified\" && exit 0",
-    "build": "webpack --mode production",
+    "build": "webpack --config ./webpack.config.js --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
